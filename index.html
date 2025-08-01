@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portofolio Tab View</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <img src="images/image1.jpg" alt="Profile Pic" class="profile-pic">
+      <h2>Savitri Rizquna</h2>
+      <p>4<sup>th</sup> Year Engineering Physics Student</p>
+      <nav>
+        <ul>
+          <li><a href="#" onclick="showSection('home')">HOME</a></li>
+          <li><a href="#" onclick="showSection('about')">ABOUT</a></li>
+          <li><a href="#" onclick="showSection('services')">SERVICES</a></li>
+          <li><a href="#" onclick="showSection('skills')">SKILLS</a></li>
+          <li><a href="#" onclick="showSection('experience')">EXPERIENCE</a></li>
+          <li><a href="#" onclick="showSection('portfolio')">PORTFOLIO</a></li>
+          <li><a href="#" onclick="showSection('contact')">CONTACT</a></li>
+        </ul>
+      </nav>
+       <footer>
+        <p>&copy; 2025 Savitri Rizquna Azzahra Dwihar. All rights reserved.</p>
+      </footer>
+    </aside>
+
+    <main class="main-content">
+      <section id="home" class="content-section active">
+        <h1>Home</h1>
+        <p>Selamat datang di website saya!</p>
+        <button class="btn">VIEW PORTFOLIO</button>
+      </section>
+
+      <section id="about" class="content-section">
+        <h1>About</h1>
+        <p>Saya adalah mahasiswa Teknik Fisika...</p>
+      </section>
+
+      <section id="services" class="content-section">
+        <h1>Services</h1>
+        <p>Desain UI, Prototyping, Front-End Dev...</p>
+      </section>
+
+      <section id="skills" class="content-section">
+        <h1>Skills</h1>
+        <ul>
+          <li>HTML, CSS, JS</li>
+          <li>Git, Canva, Figma</li>
+        </ul>
+      </section>
+
+       <section id="experience" class="content-section">
+        <h1>Experience</h1>
+        <ul>
+          <li>Unknown</li>
+        </ul>
+      </section>
+
+       <section id="portfolio" class="content-section">
+        <h1>Portfolio</h1>
+        <ul>
+          <li>Unknown</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="content-section">
+        <h1>Contact</h1>
+        <p>Email: 5009221128@student.its.ac.id</p>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
