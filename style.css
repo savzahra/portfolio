@@ -79,6 +79,11 @@ body {
   background-size: contain;
 }
 
+.nested-list {
+  margin-left: 25px;
+  list-style-type: circle; /* bisa juga square, decimal, etc. */
+}
+
 .content-section {
   display: none;
 }
